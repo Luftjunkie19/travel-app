@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 4.1.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "staging"
+    },
+    "production": {
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "../../Secret/key-secret/pc-api-7939339460966346542-680-b335dd9d1688.json"
+      }
+    }
+  }
+}
