@@ -2,7 +2,7 @@
   "expo": {
     "name": "Travelary",
     "slug": "travelary",
-    "version": "1.0.23",
+    "version": "1.0.24",
     "orientation": "portrait",
     "icon": "./assets/5219574.png",
     "userInterfaceStyle": "dark",
@@ -38,7 +38,7 @@
     },
     "android": {
       "package": "com.luftjunkie_19.travelary",
-      "versionCode": 24,
+      "versionCode": 25,
       "adaptiveIcon": {
         "foregroundImage": "./assets/5219574.png",
         "backgroundColor": "#ffffff"
